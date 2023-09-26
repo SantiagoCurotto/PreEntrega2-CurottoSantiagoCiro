@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #040D12;
+}
+
+nav div a img{
+    border-radius: 120%;
+}
+
+body{
+    background-color: #183D3D;
+}
