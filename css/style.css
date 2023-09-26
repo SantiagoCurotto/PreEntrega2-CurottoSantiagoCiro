@@ -31,6 +31,9 @@ body{
   @media (max-width: 1000px){
     .cards{
         flex-wrap: wrap;
-
     }
   }
+
+footer{
+    background-color: #93B1A6;
+}
