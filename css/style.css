@@ -24,5 +24,13 @@ body{
     .carrusel{
         width: 300px;
     }
+    .cards{
+        flex-direction: column;
+    }
   }
-  
+  @media (max-width: 1000px){
+    .cards{
+        flex-wrap: wrap;
+
+    }
+  }
