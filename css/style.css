@@ -47,14 +47,17 @@ body{
 
 
 /* CONTACTANOS */
-body {
+.body-contactanos {
+    background-color: #183D3D;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
   }
 
   .contact-container {
+    color: white;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
@@ -62,18 +65,20 @@ body {
     max-width: 600px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #ffffff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
 
   .form-group {
+    color: white;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
   }
 
   label {
+    color: white;
     text-align: right;
     padding-right: 10px;
     line-height: 30px;
@@ -81,6 +86,7 @@ body {
 
   input
   textarea {
+    color: white;
     width: 100%;
     padding: 8px;
     box-sizing: border-box;
@@ -92,7 +98,7 @@ body {
   }
 
   button {
-    background-color: #4caf50;
+    background-color: #040D12;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -103,6 +109,47 @@ body {
 
   @media (max-width: 600px) {
     .form-group {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  /* ayuda */
+  .body-ayuda {
+    background-color: #183D3D;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .help-container {
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .help-item {
+    color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  h2 {
+    margin-top: 0;
+  }
+
+  p {
+    line-height: 1.6;
+  }
+
+  @media (max-width: 600px) {
+    .help-container {
       grid-template-columns: 1fr;
     }
   }
